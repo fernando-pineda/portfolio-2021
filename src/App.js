@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import { Container } from 'react-bootstrap';
+import FloatingButton from './components/FloatingButton/FloatingButton.js';
+import FloatingMailTo from './components/FloatingMailTo/FloatingMailTo.js';
+import Main from './components/Main/Main.js';
+import About from './components/About/About.js';
+import Experience from './components/Experience/Experience.js';
+import Education from './components/Education/Education.js';
+import Projects from './components/Projects/Projects.js';
+import Fade from 'react-reveal/Fade';
 import './App.css';
+import React from 'react';
 
 function App() {
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Container>
+
+        <Fade left>
+          <Main />
+        </Fade>
+        <Fade bottom>
+          <About />
+        </Fade>
+
+        <Fade bottom>
+          <Experience />
+        </Fade>
+
+        <Fade bottom>
+          <Education />
+        </Fade>
+
+        <Fade bottom>
+          <Projects />
+        </Fade>
+
+        <FloatingButton id={"#"}/>
+        <FloatingMailTo mail={"fernando.pineda2199@gmail.com"}/>
+
+    </Container>
   );
 }
 

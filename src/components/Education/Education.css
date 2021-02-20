@@ -1,0 +1,15 @@
+.education{
+    height: 100vh;
+}
+
+.education-picture{
+    width: auto;
+    height: 80px;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 400px){
+    .education{
+        height: 100%;
+    }
+}
