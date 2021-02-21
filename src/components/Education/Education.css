@@ -8,8 +8,16 @@
     margin-bottom: 10%;
 }
 
-@media only screen and (max-width: 400px){
+.anchor-projects{
+    margin-left: 90%;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 500px){
     .education{
         height: 100%;
+    }
+
+    .anchor-projects{
+        margin-left: 70%;
     }
 }

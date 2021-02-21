@@ -58,7 +58,7 @@ export default function Education () {
                 </Row>
                 <Row>
                     <Col>
-                        <Container className="anchor-experience">
+                        <Container className="anchor-projects">
                             <a href="#projects">Projects</a>
                         </Container>
                     </Col>

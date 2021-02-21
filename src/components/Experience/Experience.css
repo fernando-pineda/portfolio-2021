@@ -111,7 +111,7 @@
     margin-top: 5%;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .cards-grid{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -155,6 +155,17 @@
         /* margin-top: 75%; */
         height: 85px;
     }
-
 }
 
+
+@media only screen and (max-width: 500px){
+
+    .experience{
+        height: 100%;
+    }
+
+    .skill-title{
+        margin-left: 10px;
+    }
+    
+}
